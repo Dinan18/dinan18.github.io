@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="icon" type="image/x-icon" href="img/dn.png">
+	<a href="index.html">
+<img src="img/logo.png" width="130" height="40" /></a>
+	
+</head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/respon.css">
+<link rel="stylesheet" href="css/navbar.css">
+<script src="js/navbar.js" defer></script>
+
+
+
+
+    <body>
+      <nav class="navbar">
+        <div class="brand-title"><i><b>[ EST 18 ]</b></i></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="dinanpage/customdesign.html">Custom Design</a></li>
+            <li><a href="dinanpage/pototypo.html">PotoTypo</a></li>
+            <li><a href="dinanpage/streetwear.html">Street Wear</a></li>
+            <li><a href="dinanpage/aboutweb.html">About Web</a></li>
+            <li><a href="dinanpage/login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<style>
+
+h1*{
+  padding: 0;
+  margin: 0;
+}
+
+h1 body{
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+#wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#wrapper h2{
+  color: #ffffff;
+  font-size: 40px;
+}
+
+#wrapper p{
+  line-height: 30px;
+}
+
+#wrapper a{
+  background-color: #e84393;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+h1::before{
+  content: '';
+  animation: animate infinite 5s;
+  color: #00baff;
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+@keyframes animate{
+  25%{
+    content: 'Welcome';
+  }
+
+  30%{
+    content: 'To';
+  }
+
+  50%{
+    content: 'Dinan [ EST 18 ]';
+  }
+
+  75%{
+    content: 'All About Aesthetic';
+  }
+
+  100%{
+    content: 'In Here...';
+  }
+}
+</style>
+
+
+<center><h1></h1>
+</center>
+
+
+<style type="text/css">
+
+.gambarsorot img{
+-webkit-transform:scale(0.9);
+-moz-transform:scale(0.9);
+-o-transform:scale(0.9);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+opacity: 0.8;
+margin: 0 10px 5px 0;
+}
+.gambarsorot img:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+box-shadow:0px 0px 30px blue;
+-webkit-box-shadow:0px 0px 30px blue;
+-moz-box-shadow:0px 0px 30px blue;
+opacity: 1;
+}
+
+</style>
+<center>
+  <div class="gambarsorot">
+ <a href="dinanpage/customdesign.html">
+ <img class="kiri" src="img/shop.png" width="150" height="150" />
+</a>
+
+<a href="dinanpage/pototypo.html">
+ <img class="tengah" src="img/kamera.png" width="150" height="150"  />
+</a>
+
+
+<a href="dinanpage/streetwear.html">
+ <img class="tengah" src="img/street.png" width="150" height="150"  />
+</a>
+
+<a href="https://shopee.co.id/ferdi_nan18">
+ <img class="tengah" src="img/sopi.png" width="150" height="150"  />
+</a>
+
+<a href="https://tokopedia.com/dinan18">
+ <img class="tengah" src="img/pedia.png" width="150" height="150"  />
+</a>
+
+<a href="https://instagram.com/ferdi_nan18">
+ <img class="tengah" src="img/ig.png" width="150" height="150"  />
+</a>
+
+<a href="https://maps.app.goo.gl/9G4y1qpujZ7Y18Vh7">
+ <img class="tengah" src="img/maps.png" width="150" height="150"  />
+</a>
+
+<a href="dinanpage/aboutweb.html">
+ <img class="tengah" src="img/about.png" width="150" height="150"  />
+</a>
+</div>
+</center>
+
+<style>
+  .jam {
+        font-size: 2em;
+        color: #00baff;
+        background-color: #ffffff;
+        border: 2px solid #00baff;
+        border-radius: 5px;
+        padding: 10px;
+     }
+   </style>
+
+   <p><center>
+<span class="jam"></span></center>
+</p>
+
+<script type="text/javascript">
+    function jam() {
+    var time = new Date(),
+        hours = time.getHours(),
+        minutes = time.getMinutes(),
+        seconds = time.getSeconds();
+    document.querySelectorAll('.jam')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+      
+    function harold(standIn) {
+        if (standIn < 10) {
+          standIn = '0' + standIn
+        }
+        return standIn;
+        }
+    }
+    setInterval(jam, 1000);
+</script>
+
+<footer>
+    <p><marquee direction="right" bgcolor='#00baff' style='color:white; font-weight:bold;'>&copy; Copyright 2022  Ferdi_nan18</marquee></p>
+  </footer>
+
+</body>
+</html>

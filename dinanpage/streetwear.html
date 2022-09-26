@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Street Wear</title>
+  <link rel="icon" type="image/x-icon" href="../img/dn.png">
+	<a href="../index.html">
+<img src="../img/logo.png" width="130" height="40" /></a>
+
+
+
+</head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/respon.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<script src="../js/navbar.js" defer></script>
+
+
+
+    <body>
+      <nav class="navbar">
+        <div class="brand-title"><i><b>[ EST 18 ]</b></i></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="customdesign.html">Custom Design</a></li>
+            <li><a href="pototypo.html">PotoTypo</a></li>
+            <li><a class="active" href="streetwear.html">Street Wear</a></li>
+            <li><a href="aboutweb.html">About Web</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<img src="..//img/sw.png" width="183" height="70" />
+
+<style>
+h1*{
+  padding: 0;
+  margin: 0;
+}
+
+h1 body{
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+#wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#wrapper h2{
+  color: #ffffff;
+  font-size: 40px;
+}
+
+#wrapper p{
+  line-height: 30px;
+}
+
+#wrapper a{
+  background-color: #e84393;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+h1::before{
+  content: '';
+  animation: animate infinite 5s;
+  color: #00baff;
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+@keyframes animate{
+  20%{
+    content: 'Hello...';
+  }
+
+  50%{
+    content: 'Street Wear';
+  }
+
+  60%{
+    content: 'In Here...';
+  }
+
+}
+</style>
+
+<center><h1></h1>
+
+
+
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 30px 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+.container {
+  height: 350px;
+  width: 200px;
+  padding: 12px;
+  position: relative;
+  background: linear-gradient(#529fe9 50%, #1e202b 50%) 0 100% no-repeat;
+  background-size: 100% 200%;
+  transition: 0.7s;
+  overflow: hidden;
+}
+.img-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.container img {
+  width: 100%;
+  height: 100%;
+}
+.container:hover {
+  background-position: 0 0;
+}
+.details {
+  position: absolute;
+  background-color: #ffffff;
+  color: #000000;
+  width: 80%;
+  text-align: center;
+  padding: 10px 0;
+  bottom: -100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  transition: 0.7s;
+}
+h3,
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+h3 {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+h5 {
+  font-size: 12px;
+}
+.social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 5px 0;
+}
+.container:hover .details {
+  bottom: 30px;
+}
+.img-wrapper:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.7s;
+}
+.container:hover .img-wrapper:after {
+  opacity: 0.5;
+}
+i:hover {
+  color: #529fe9;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .container {
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+  }
+}
+</style>
+ <div class="wrapper">
+      <div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/4.jpg" /></div>
+        <div class="details">
+          <h3>Buzz Light Year</h3>
+          <h5>- TOY STORY -</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/6.jpg" /></div>
+        <div class="details">
+          <h3>Puan Maharani</h3>
+          <h5>- Ketua PDIP -</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/3.jpg" /></div>
+        <div class="details">
+          <h3>Monkey D. Luffy<</h3>
+          <h5>- ONE PIECE -</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+<div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/5.jpg" /></div>
+        <div class="details">
+          <h3>Uzumaki Naruto</h3>
+          <h5>- KONOHAGURE -</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+<div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/1.jpg" /></div>
+        <div class="details">
+          <h3>Hatake Kakashi</h3>
+          <h5>- KONOHAGURE -</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+<div class="container">
+        <div class="img-wrapper"><img src="../img/streetwear/Boruto.jpg" /></div>
+        <div class="details">
+          <h3>Boruto</h3>
+          <h5>Naruto The Next Generations</h5>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </body>
+
+</body>
+</html>
